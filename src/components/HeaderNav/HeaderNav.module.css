@@ -1,0 +1,51 @@
+.nav {
+    display: flex;
+
+}
+
+.listEl {
+    position: relative;
+}
+
+.listEl:not(:last-child) {
+    margin-right: 85px;
+}
+
+.navLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #404242;
+
+    transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navLink::after {
+    content: "";
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #FEC62D;
+    border-radius: 20px;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    height: 4px;
+    transform: scaleX(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navLink:hover,
+.navLink:focus {
+    font-weight: 500;
+    color: #58A9A5;
+}
+
+.navLink:hover::after,
+.navLink:focus::after {
+    transform: scaleX(1);
+}

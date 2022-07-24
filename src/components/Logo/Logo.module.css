@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+}
+
+.logoImg {
+    margin-right: 15px;
+}
+
+.logoText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #58A9A5;
+}

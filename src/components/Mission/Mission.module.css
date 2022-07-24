@@ -1,0 +1,32 @@
+.mission {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture {
+    margin-right: 145px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+    padding-right: 90px;
+    margin-bottom: 50px;
+
+    color: #1C2323;
+
+}
+
+.text {
+    font-weight: 500;
+
+    color: #486958;
+}

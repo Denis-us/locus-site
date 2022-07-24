@@ -1,0 +1,69 @@
+.card {
+    display: flex;
+}
+
+.reviewDescription {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 135px;
+    padding-right: 135px;
+    background-color: #CCF0E6;
+}
+
+.evaluations {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.oneEvaluation:not(:last-child) {
+    margin-right: 117px;
+}
+
+.evaluationText {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #58A9A5;
+}
+
+.evaluationNumber {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+}
+
+.comment {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #486958;
+
+    z-index: 1;
+}
+
+.comment::before {
+    content: "";
+    position: absolute;
+    left: -5%;
+    top: -20%;
+    width: 97px;
+    height: 81px;
+    background: url(../../img/quotes.svg);
+
+    z-index: -1;
+}
+
+.user {
+    margin-top: 30px;
+
+    color: #58A9A5
+}

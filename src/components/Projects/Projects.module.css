@@ -1,0 +1,92 @@
+.section {
+    margin-bottom: 215px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.textMain {
+    position: relative;
+    text-align: center;
+    height: 90px;
+    margin-bottom: 15px;
+    color: #404242;
+}
+
+.textMain::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    margin-right: 45%;
+    margin-left: 45%;
+    background-color: #58A9A5;  
+}
+
+.projects {
+    display: flex;
+    position: relative;
+    padding-top: 94px;
+}
+
+.projects::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    right: 0;
+    top: 0;
+    margin-right: 45%;
+    margin-left: 45%;
+    background-color: #58A9A5;
+}
+
+.oneProject {
+    display: flex;
+    flex-direction: column;
+}
+
+.oneProject:nth-child(2n) {
+    flex-direction: column-reverse;
+}
+
+.oneProject:not(:last-child) {
+    margin-right: 119px;
+}
+
+.projectDesc {
+
+}
+
+.projectsTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+    margin-top: 0;
+    margin-bottom: 5px;
+
+    color: #58A9A5;
+}
+
+.projectsText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #486958;
+}
+
+.picture {
+    width: 450px;
+    height: 450px;
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
