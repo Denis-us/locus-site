@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.431cfb64.css",
+    "main.js": "/static/js/main.ead7bcac.js",
+    "static/media/Klamby.svg": "/static/media/Klamby.113032139bcb71eb55625fc5afeb69e6.svg",
+    "static/media/missionImg.png": "/static/media/missionImg.0f947758510f89d7cd9f.png",
+    "static/media/Review.png": "/static/media/Review.c0b1ee0e9a25df07e025.png",
+    "static/media/HITpicture.png": "/static/media/HITpicture.c1530d23e4cb8b231b49.png",
+    "static/media/Livingroom.png": "/static/media/Livingroom.bb371eea321e49e5453f.png",
+    "static/media/furniture.png": "/static/media/furniture.bd700b01ac6efc0c56f4.png",
+    "static/media/Library.png": "/static/media/Library.a7722dd392bd1c9353f0.png",
+    "static/media/Workspace.png": "/static/media/Workspace.406c4719dd7abb070a33.png",
+    "static/media/Mayoutfit.svg": "/static/media/Mayoutfit.79258ad571491eda19b14dd9e001969b.svg",
+    "static/media/Geulis.svg": "/static/media/Geulis.2badd37a2c3fad37ecf57d45c3f1eff5.svg",
+    "static/media/Zalora.svg": "/static/media/Zalora.c412a21f97dde274c74d773082bb8ca4.svg",
+    "static/media/quotes.svg": "/static/media/quotes.61784c5b93c9ee37bfd7.svg",
+    "index.html": "/index.html",
+    "static/media/Logo.svg": "/static/media/Logo.3c4f1848bbc5a696409ba8a555b1b6b8.svg",
+    "static/media/play.svg": "/static/media/play.e42d441ad4eae7256390.svg",
+    "main.431cfb64.css.map": "/static/css/main.431cfb64.css.map",
+    "main.ead7bcac.js.map": "/static/js/main.ead7bcac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.431cfb64.css",
+    "static/js/main.ead7bcac.js"
+  ]
+}
