@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/locus-site/static/css/main.0ad10dc5.css",
-    "main.js": "/locus-site/static/js/main.35d66025.js",
+    "main.css": "/locus-site/static/css/main.764af96e.css",
+    "main.js": "/locus-site/static/js/main.d5d69e01.js",
     "static/media/Klamby.svg": "/locus-site/static/media/Klamby.113032139bcb71eb55625fc5afeb69e6.svg",
     "static/media/missionImg.png": "/locus-site/static/media/missionImg.0f947758510f89d7cd9f.png",
     "static/media/Review.png": "/locus-site/static/media/Review.c0b1ee0e9a25df07e025.png",
@@ -17,11 +17,11 @@
     "index.html": "/locus-site/index.html",
     "static/media/Logo.svg": "/locus-site/static/media/Logo.3c4f1848bbc5a696409ba8a555b1b6b8.svg",
     "static/media/play.svg": "/locus-site/static/media/play.e42d441ad4eae7256390.svg",
-    "main.0ad10dc5.css.map": "/locus-site/static/css/main.0ad10dc5.css.map",
-    "main.35d66025.js.map": "/locus-site/static/js/main.35d66025.js.map"
+    "main.764af96e.css.map": "/locus-site/static/css/main.764af96e.css.map",
+    "main.d5d69e01.js.map": "/locus-site/static/js/main.d5d69e01.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ad10dc5.css",
-    "static/js/main.35d66025.js"
+    "static/css/main.764af96e.css",
+    "static/js/main.d5d69e01.js"
   ]
 }
