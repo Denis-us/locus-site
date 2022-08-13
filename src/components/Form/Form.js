@@ -15,7 +15,19 @@ const Form = () => {
 
 
                 <form className={s.form}>
-                        <label className={s.label}>
+                    <div className={s.inputBox}>
+                        <input type="name" name="name" required="" className={s.input}/>
+                        <label className={s.label}>Full name</label>
+                    </div>
+                    <div className={s.inputBox}>
+                        <input type="email" name="email" required="" className={s.input}/>
+                        <label className={s.label}>Email address</label>
+                    </div>
+                    <div className={s.inputBox}>
+                        <input type="text" name="description" required="" className={s.input}/>
+                        <label className={s.label}>Description</label>
+                    </div>
+                        {/* <label className={s.label}>
                             <input type="name" name="name" placeholder="Full name" className={s.input}/>
                         </label>
                         <label className={s.label}>
@@ -23,7 +35,7 @@ const Form = () => {
                         </label>
                         <label className={s.label}>
                             <input type="text" name="description" placeholder="Description" className={s.input}/>
-                        </label>
+                        </label> */}
                     <div className={s.button}>
                         <Button type="submit">Send now</Button>
                     </div>

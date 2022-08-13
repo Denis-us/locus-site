@@ -9,8 +9,10 @@ const Header = () => {
             <Logo/>
             
             <HeaderNav/>
-
-            <Button>Sign up</Button>
+            <div className={s.btnContainer}>
+                <Button>Sign up</Button>
+            </div>
+            {/* <Button>Sign up</Button> */}
         </header>
     )
 }
